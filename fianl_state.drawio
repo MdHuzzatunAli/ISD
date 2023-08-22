@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-22T08:17:13.660Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="aq01mkyn0OsHv8FnpeTr" version="21.6.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-22T08:18:25.322Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="plvpsS-YOQ8IrV8MINH_" version="21.6.8" type="github" pages="8">
   <diagram name="Login and Register" id="8QQtbcCOzEE3OXmtWNKP">
     <mxGraphModel dx="1050" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -746,13 +746,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kBtAFB5_Har3P0dEnTYR-11" value="individualCourse(courseID)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="470" y="450" width="60" height="30" as="geometry" />
+          <mxGeometry x="470" y="460" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kBtAFB5_Har3P0dEnTYR-13" value="individualUser(userID)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="170" y="450" width="60" height="30" as="geometry" />
+          <mxGeometry x="160" y="460" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kBtAFB5_Har3P0dEnTYR-14" value="individualAuthor(authorID)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="750" y="450" width="60" height="30" as="geometry" />
+          <mxGeometry x="750" y="460" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="f47YFNuiy8rgVg3lt7Hg-1" value="" style="endArrow=none;html=1;rounded=0;exitX=0.575;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="kBtAFB5_Har3P0dEnTYR-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -786,6 +786,15 @@
             <mxPoint x="710" y="690" as="sourcePoint" />
             <mxPoint x="450" y="650" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wWBaMZNBLZuExti2EotU-8" value="analysisCompleted()" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wWBaMZNBLZuExti2EotU-9" value="analysisCompleted()" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wWBaMZNBLZuExti2EotU-10" value="analysisCompleted()" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="620" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
