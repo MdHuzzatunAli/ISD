@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T04:04:01.723Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="4ngK4lyOiPBIBxsuQ4Wy" version="21.6.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-09-11T04:13:18.504Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="004srphaEJN3uXqUJRMC" version="21.6.8" type="github" pages="8">
   <diagram name="Login and Register" id="8QQtbcCOzEE3OXmtWNKP">
     <mxGraphModel dx="1050" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -294,11 +294,14 @@
         <mxCell id="fdIsIFf_mkraI-hVhW64-7" value="&lt;div&gt;submitAnswer(problemID, answer)/&lt;/div&gt;&lt;div&gt;checkSolution(problemID, answer)&lt;/div&gt;[verdict = unaccepted]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="150" y="320" width="215" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Fx2WaLn2HzAn31F5PRI3-1" value="&lt;div&gt;submitAnswer(problemID, answer)/&lt;/div&gt;&lt;div&gt;checkSolution(problemID, answer)&lt;/div&gt;[verdict = accepted]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Fx2WaLn2HzAn31F5PRI3-1" value="&lt;div&gt;submitAnswer(problemID, answer)/&lt;/div&gt;&lt;div&gt;checkSolution(problemID, answer)&lt;/div&gt;[verdict = accepted]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="450" y="320" width="215" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Fx2WaLn2HzAn31F5PRI3-2" value="&lt;div&gt;showAnswers(problemID)&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Fx2WaLn2HzAn31F5PRI3-2" value="&lt;div&gt;showAnswers(problemID)&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="590" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsFgFJ-_IxDAHARVOOnL-1" value="The object here is skill quiz,&lt;br&gt;The state diagram of the skill quiz is shown&lt;br&gt;in this diagram" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="608" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -319,7 +322,7 @@
         <mxCell id="zddcFsFxK-s7H87K7gWW-3" value="&lt;div&gt;Session started&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="R0a850Dvm8VvtLfvkEsT-1" value="View Course Type" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="R0a850Dvm8VvtLfvkEsT-1" value="&lt;div&gt;Course Type / Category&lt;/div&gt;&lt;div&gt;Showed&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R0a850Dvm8VvtLfvkEsT-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="R0a850Dvm8VvtLfvkEsT-1" edge="1">
@@ -328,7 +331,7 @@
             <mxPoint x="425" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R0a850Dvm8VvtLfvkEsT-5" value="Courses Showed" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="R0a850Dvm8VvtLfvkEsT-5" value="Courses of the Selected Category Showed" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R0a850Dvm8VvtLfvkEsT-6" value="selectType(typeID)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -340,8 +343,8 @@
             <mxPoint x="425" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R0a850Dvm8VvtLfvkEsT-8" value="selectCourse(courseID)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="330" y="430" width="60" height="30" as="geometry" />
+        <mxCell id="R0a850Dvm8VvtLfvkEsT-8" value="selectCourse(courseID, userID)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="245" y="430" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="R0a850Dvm8VvtLfvkEsT-10" value="Lessons Showed" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="780" width="120" height="60" as="geometry" />
@@ -367,7 +370,7 @@
         <mxCell id="R0a850Dvm8VvtLfvkEsT-19" value="selectTopic(topicID)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="340" y="720" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2JfqSshT7LluTz10ptiy-1" value="Acceptance Check" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="2JfqSshT7LluTz10ptiy-1" value="Course Approval Checked of User for Selected Course" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2JfqSshT7LluTz10ptiy-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
@@ -376,8 +379,8 @@
             <mxPoint x="425" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2JfqSshT7LluTz10ptiy-3" value="&lt;div&gt;accessApproved(courseID)&lt;/div&gt;&lt;div&gt;[type = free or purchased = yes]&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="320" y="580" width="60" height="30" as="geometry" />
+        <mxCell id="2JfqSshT7LluTz10ptiy-3" value="&lt;div&gt;accessApproved(courseID, userID)&lt;/div&gt;&lt;div&gt;[type = free or purchased = yes]&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="235" y="580" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2JfqSshT7LluTz10ptiy-4" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2JfqSshT7LluTz10ptiy-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -397,8 +400,11 @@
             <mxPoint x="450" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2JfqSshT7LluTz10ptiy-9" value="&lt;div&gt;accessDenied(courseID)&lt;/div&gt;&lt;div&gt;[type = paid and purchased = no]&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="660" y="355" width="110" height="30" as="geometry" />
+        <mxCell id="2JfqSshT7LluTz10ptiy-9" value="&lt;div&gt;accessDenied(courseID, userID)&lt;/div&gt;&lt;div&gt;[type = paid and purchased = no]&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="640" y="355" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NiWs4-24ekhSfx9GWXH5-2" value="The object here is courses,&lt;br&gt;The state diagram of the courses are shown&lt;br&gt;in this diagram" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="608" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -557,10 +563,10 @@
         <mxCell id="6RmTOi0DwJVIttBjV0j_-15" value="showQuiz(lessonID)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="262.5" y="500" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hCRRZwFNRNWt8k1N0a0M-1" value="checkSolution(problemID, answer)&lt;br&gt;[verdict = accepted]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hCRRZwFNRNWt8k1N0a0M-1" value="checkSolution(problemID, answer)&lt;br&gt;[verdict = accepted]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="450" y="620" width="202.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hCRRZwFNRNWt8k1N0a0M-2" value="checkSolution(problemID, answer)&lt;br&gt;[verdict = unaccepted]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hCRRZwFNRNWt8k1N0a0M-2" value="checkSolution(problemID, answer)&lt;br&gt;[verdict = unaccepted]" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="341.25" y="710" width="202.5" height="30" as="geometry" />
         </mxCell>
       </root>
